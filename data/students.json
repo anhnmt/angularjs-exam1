@@ -1,0 +1,37 @@
+[
+	{
+		"id": 1,
+		"name": "Nguyễn Văn Anh",
+		"email": "vananh@gmail.com",
+		"username": "vananh",
+		"password": "vananh123"
+	},
+	{
+		"id": 2,
+		"name": "Nguyễn Tiến Thành",
+		"email": "vanthanh@gmail.com",
+		"username": "tienthanh",
+		"password": "tienthanh123"
+	},
+	{
+		"id": 3,
+		"name": "Nguyễn Việt Tiến",
+		"email": "tienvt@gmail.com",
+		"username": "viettien",
+		"password": "viettien123"
+	},
+	{
+		"id": 4,
+		"name": "Đỗ Thẩm Mỹ",
+		"email": "mydt@gmail.com",
+		"username": "mydt",
+		"password": "mydt123"
+	},
+	{
+		"id": 5,
+		"name": "Hoàng Phi Hồng",
+		"email": "honghp@gmail.com",
+		"username": "honghp",
+		"password": "honghp123"
+	}
+]

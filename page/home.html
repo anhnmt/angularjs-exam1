@@ -1,0 +1,28 @@
+<div class="panel panel-defaut">
+	<div class="panel-heading">
+		<h3 class="panel-title">Danh sách sinh viên</h3>
+	</div>
+	<div class="panel-body">
+		<input type="text" placeholder="Tìm kiếm sinh viên" class="form-control" ng-model="txtSearch"/>
+	</div>
+	<table class="table table-hover">
+		<thead>
+			<tr>
+				<th>STT</th>
+				<th>Họ và tên</th>
+				<th>Địa chỉ email</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="user in listUser | filter: txtSearch">
+				<td>{{ user.id }}</td>
+				<td>{{ user.name }}</td>
+				<td>{{ user.email }}</td>
+				<td>
+					<a class="btn btn-xs btn-success" ng-click="xem($index)"> Chi tiết </a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
